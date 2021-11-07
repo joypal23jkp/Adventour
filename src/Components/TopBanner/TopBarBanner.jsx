@@ -1,6 +1,5 @@
 import './style.css';
 import React, { Component } from "react";
-
 class TopBarBanner extends Component {
     render()  {
       return (
