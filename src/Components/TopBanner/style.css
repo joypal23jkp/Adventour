@@ -1,32 +1,45 @@
 
 .Top_bar-banner_wrapper {
     height: 70vh;
-    background: url("./bannar.jpg") center no-repeat;
-    opacity: 0.85;
+    background: white;
+    font-family: 'Nunito', sans-serif;
 }
-.Top_bar-container-contents-holder {
-    margin-top: calc(70vh/2.8);
+.hero__title{
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 18%;
+}
+.hero__title_inner{
+    color: var(--light_green);
 }
 
-.Top_bar-container-contents-holder h1 {
-    font-size: 54px;
+.hero__description{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--light_text_color);
 }
-.Top_bar-container-contents-holder p {
-    font-size: 24px;
-}
-.subscription-button {
+
+.hero-button {
     width: 200px;
-    background: rgba(63, 54, 54, 0.58);
-    color: white;
-    border: none;
+    margin-top: 54px;
+    font-weight: 600;
+    background: white;
+    color: black;
+    border: .5px solid gray;
     padding: 8px 0;
     border-radius: 45px;
     outline: none!important;
 }
-.subscription-button:hover {
+.hero-button:hover {
     background: black;
+    color: var(--light_green);
     transition-duration: 0.5s;
 }
-.subscription-button:focus{
-    border: none;
+.hero-button:focus{
+    color: black;
+}
+
+.hero_image{
+    width: 75%;
+    float: right;
 }

@@ -1,5 +1,5 @@
 import './style.css'
-import Setting from './settings.svg';
+import Setting from '../../assets/icons/menu.png';
 export default function SearchComponent(){
     return (
         <div>
