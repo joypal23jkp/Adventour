@@ -10,14 +10,14 @@ class TopBarBanner extends Component {
                 with Adventour.</h1>
                  <h2 className="hero__description text-left">
                  Find The Way of Life.<br />
-                 Your Planning can help others to expore.
+                 Your Planning can help others to explore.
                  </h2>
                  <div className="hero__button_wrapper d-flex">
                      <button className="hero-button">Let's Plan</button>
                  </div>
              </div>
              <div className="hero__right_section w-lg-50 w-md-50 w-sm-100">
-                <img className="hero_image" src={Human_Adventour_Image} alt="hero+image"></img>
+                <img className="hero_image" src={Human_Adventour_Image} alt="IMG" />
              </div>
           </div>
       )

@@ -1,15 +1,14 @@
 import '../App.css';
 import React from "react";
-import { Button } from "antd";
-
-// import Banner from '../assets/images/bannar.jpg'
 import TopBarBanner from "../Components/TopBanner/TopBarBanner";
+import PlanningComponent from "../Components/ParticleComponents/Planning/RecentPlanning";
 
 const Home = () => {
     return (
         <div>
             <TopBarBanner />
-            <hr />
+            <br/>
+            <PlanningComponent />
         </div>
     );
 }

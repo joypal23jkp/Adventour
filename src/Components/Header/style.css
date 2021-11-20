@@ -10,3 +10,6 @@
 .nav-link {
     color: black!important;
 }
+.nav-link:hover{
+    color: var(--light_green) !important;
+}
