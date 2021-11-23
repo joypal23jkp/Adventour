@@ -1,0 +1,22 @@
+.ant-btn:focus, .ant-btn:hover {
+    color: var(--light_green);
+    border-color: var(--light_green);
+    background: #fff;
+}
+
+.ant-pagination-simple .ant-pagination-simple-pager input:hover {
+    border-color: var(--light_green);
+}
+.recent_planning__header__text h5{
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.recent_planning__header__text p{
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    color: var(--light_text_color);
+}
