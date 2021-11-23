@@ -1,9 +1,9 @@
 import './style.css'
-import Setting from '../../assets/icons/menu.png';
-export default function SearchComponent(){
+import Setting from '../../assets/Icons/menu.png';
+export default function SearchComponent() {
     return (
         <div>
-           <img src={Setting} alt="Setting"/>
+            <img src={Setting} alt="Setting" />
         </div>
     );
 }
