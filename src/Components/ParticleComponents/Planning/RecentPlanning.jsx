@@ -10,8 +10,6 @@ const RecentPlanning = () => {
                 <PlanCard />
                 <PlanCard />
                 <PlanCard />
-                <PlanCard />
-                <PlanCard />
             </div>
         </div>
     );
