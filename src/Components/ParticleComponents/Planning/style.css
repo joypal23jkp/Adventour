@@ -2,6 +2,7 @@
     color: var(--light_green);
     border-color: var(--light_green);
     background: #fff;
+    font-weight: 700;
 }
 
 .ant-pagination-simple .ant-pagination-simple-pager input:hover {
