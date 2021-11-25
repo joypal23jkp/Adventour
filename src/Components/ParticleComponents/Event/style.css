@@ -1,0 +1,22 @@
+.event_component__wrapper{
+    background: rgba(232, 245, 232, 0.85);
+    min-height: 40vh;
+    padding: 18px;
+    border-radius: 8px;
+}
+.event_info_component__information{
+    padding: 48px 30px 12px 30px;
+}
+
+.event_info_component__information, .event_info_component__information h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+li{
+    list-style-type: circle;
+    padding-left: 12px;
+    color: var(--light_text_color);
+    font-weight: bold;
+}

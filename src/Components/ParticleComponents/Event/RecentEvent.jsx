@@ -4,12 +4,12 @@ import EventInfoComponents from './EventInfoComponents';
 
 const RecentEvent = () => {
     return (
-        <div className="d-flex justify-content-center container-lg container-md">
+        <div className="d-flex justify-content-center container-lg container-md event_component__wrapper">
             <div className="col-md-6">
-                <EventInfoComponents></EventInfoComponents>
+                <EventInfoComponents />
             </div>
             <div className="col-md-6">
-                <Event></Event>
+                <Event />
             </div>
         </div>
     );
